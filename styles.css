@@ -1,0 +1,68 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '../node_modules/@syncfusion/ej2-base/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-icons/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-buttons/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-inputs/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-lists/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-navigations/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-popups/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-richtexteditor/styles/material.css';
+
+#rteSection {
+    height: 500px;
+}
+.char_block {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 5px 5px 0;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #DDDDDD;
+    font-size: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+.char_block.e-active {
+    outline: #DE3163 solid 3px;
+}
+#rteDialog.e-dialog .e-dlg-content {
+    padding: 0px 0px 5px 16px;
+}
+#custom_tbar .e-tbar-btn-text {
+    font-size: 16px;
+}
+.e-bigger #custom_tbar .e-tbar-btn-text {
+    font-size: 18px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .fabric.e-bigger #rteDialog {
+        min-width: 281px;
+    }
+
+    .fabric #rteDialog {
+        min-width: 241px;
+    }
+
+    .bootstrap.e-bigger #rteDialog,
+    .bootstrap #rteDialog {
+        min-width: 223px;
+    }
+
+    .highcontrast.e-bigger #rteDialog {
+        min-width: 283px;
+    }
+    .highcontrast #rteDialog {
+        min-width: 243px;
+    }
+    .material #rteDialog {
+        min-width: 224px;
+    }
+    .material.e-bigger #rteDialog {
+        min-width: 236px;
+    }
+}
